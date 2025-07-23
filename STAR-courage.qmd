@@ -148,9 +148,7 @@ tibble(
 * Estimate a model in which `g4math` is the dependent variable and `kind` (class type) is the independent variable. How do you interpret the results? Be sure to also display the confidence intervals.
 
 ```{r}
-linear_reg() |> 
-  fit(g4math ~ kind, data = x) |> 
-  tidy(conf.int = TRUE)
+
 ```
 
 * Estimate a model in which `g4math` is the dependent variable and both `kind` and `race` are the independent variables. How do you interpret the results? 
