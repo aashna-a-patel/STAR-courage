@@ -156,9 +156,7 @@ linear_reg() |>
 * Estimate a model in which `g4math` is the dependent variable and both `kind` and `race` are the independent variables. How do you interpret the results? 
 
 ```{r}
-linear_reg() |>
-  fit(g4math ~ kind + race, data = x) |>
-  tidy(conf.int = TRUE)
+
 ```
 
  Show the output of the code below to AI. Ask for help in interpreting it. What do the coefficients for kind and race suggest? Are any effects statistically significant? How certain or uncertain should I be about these estimates?  
